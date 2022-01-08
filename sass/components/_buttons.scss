@@ -1,0 +1,25 @@
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  background: transparent;
+  opacity: 0.7;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  z-index: 100;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.carousel-prev {
+  left: 2%;
+}
+
+.carousel-next {
+  left: 92%;
+}
